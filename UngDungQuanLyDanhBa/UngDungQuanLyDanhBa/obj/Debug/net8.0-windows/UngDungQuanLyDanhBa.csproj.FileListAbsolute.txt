@@ -1,7 +1,0 @@
-D:\DoAnTinHoc_nhom5\UngDungQuanLyDanhBa\UngDungQuanLyDanhBa\obj\Debug\net8.0-windows\UngDungQuanLyDanhBa.Form1.resources
-D:\DoAnTinHoc_nhom5\UngDungQuanLyDanhBa\UngDungQuanLyDanhBa\obj\Debug\net8.0-windows\UngDungQuanLyDanhBa.csproj.GenerateResource.cache
-D:\DoAnTinHoc_nhom5\UngDungQuanLyDanhBa\UngDungQuanLyDanhBa\obj\Debug\net8.0-windows\UngDungQuanLyDanhBa.GeneratedMSBuildEditorConfig.editorconfig
-D:\DoAnTinHoc_nhom5\UngDungQuanLyDanhBa\UngDungQuanLyDanhBa\obj\Debug\net8.0-windows\UngDungQuanLyDanhBa.AssemblyInfoInputs.cache
-D:\DoAnTinHoc_nhom5\UngDungQuanLyDanhBa\UngDungQuanLyDanhBa\obj\Debug\net8.0-windows\UngDungQuanLyDanhBa.AssemblyInfo.cs
-D:\DoAnTinHoc_nhom5\UngDungQuanLyDanhBa\UngDungQuanLyDanhBa\obj\Debug\net8.0-windows\UngDungQuanLyDanhBa.csproj.CoreCompileInputs.cache
-D:\DoAnTinHoc_nhom5\UngDungQuanLyDanhBa\UngDungQuanLyDanhBa\obj\Debug\net8.0-windows\UngDungQuanLyDanhBa.sourcelink.json
