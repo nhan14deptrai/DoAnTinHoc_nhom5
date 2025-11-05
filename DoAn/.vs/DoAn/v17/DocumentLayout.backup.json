@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DoAnTinHoc_nhom5\\DoAn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|D:\\DoAnTinHoc_nhom5\\DoAn\\doan\\cdanhba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|solutionrelative:doan\\cdanhba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|D:\\DoAnTinHoc_nhom5\\DoAn\\doan\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|solutionrelative:doan\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|D:\\DoAnTinHoc_nhom5\\DoAn\\doan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|solutionrelative:doan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|d:\\doantinhoc_nhom5\\doan\\doan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D9207988-29F7-43E8-AAA3-091732969D0C}|DoAn\\DoAn.csproj|solutionrelative:doan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\Form1.cs",
+              "RelativeDocumentMoniker": "DoAn\\Form1.cs",
+              "ToolTip": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\Form1.cs*",
+              "RelativeToolTip": "DoAn\\Form1.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T05:03:34.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "DoAn\\Form1.Designer.cs",
+              "ToolTip": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\Form1.Designer.cs",
+              "RelativeToolTip": "DoAn\\Form1.Designer.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:31:10.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CDanhBa.cs",
+              "DocumentMoniker": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\CDanhBa.cs",
+              "RelativeDocumentMoniker": "DoAn\\CDanhBa.cs",
+              "ToolTip": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\CDanhBa.cs",
+              "RelativeToolTip": "DoAn\\CDanhBa.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:31:33.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\Form1.cs",
+              "RelativeDocumentMoniker": "DoAn\\Form1.cs",
+              "ToolTip": "D:\\DoAnTinHoc_nhom5\\DoAn\\DoAn\\Form1.cs [Design]*",
+              "RelativeToolTip": "DoAn\\Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T04:31:06.514Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

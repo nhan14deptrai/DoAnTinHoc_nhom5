@@ -1,0 +1,10 @@
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\bin\Debug\DoAn.exe.config
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\bin\Debug\DoAn.exe
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\bin\Debug\DoAn.pdb
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.Form1.resources
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.Properties.Resources.resources
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.csproj.GenerateResource.cache
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.exe
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.pdb
