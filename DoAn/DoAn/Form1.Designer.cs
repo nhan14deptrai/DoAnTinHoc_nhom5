@@ -45,15 +45,16 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhBa)).BeginInit();
             this.SuspendLayout();
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(662, 47);
+            this.btnThem.Location = new System.Drawing.Point(508, 112);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(97, 57);
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -61,20 +62,20 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(662, 91);
+            this.btnSua.Location = new System.Drawing.Point(611, 111);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(97, 57);
             this.btnSua.TabIndex = 1;
             this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(662, 130);
+            this.btnXoa.Location = new System.Drawing.Point(508, 184);
             this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.Size = new System.Drawing.Size(97, 57);
             this.btnXoa.TabIndex = 2;
             this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -82,13 +83,14 @@
             // 
             // btnLuuFile
             // 
-            this.btnLuuFile.Location = new System.Drawing.Point(662, 172);
+            this.btnLuuFile.Location = new System.Drawing.Point(611, 184);
             this.btnLuuFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLuuFile.Name = "btnLuuFile";
-            this.btnLuuFile.Size = new System.Drawing.Size(75, 23);
+            this.btnLuuFile.Size = new System.Drawing.Size(97, 57);
             this.btnLuuFile.TabIndex = 3;
-            this.btnLuuFile.Text = "LuuFile";
+            this.btnLuuFile.Text = "Luu";
             this.btnLuuFile.UseVisualStyleBackColor = true;
+            this.btnLuuFile.Click += new System.EventHandler(this.btnLuuFile_Click);
             // 
             // label1
             // 
@@ -206,12 +208,23 @@
             this.Column4.Name = "Column4";
             this.Column4.Width = 180;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button1.Location = new System.Drawing.Point(141, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(527, 68);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "QUẢN LÝ DANH BẠ ĐIỆN THOẠI";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(778, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvDanhBa);
             this.Controls.Add(this.txtHoten);
             this.Controls.Add(this.txtEmail);
@@ -255,6 +268,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.Button button1;
     }
 }
 

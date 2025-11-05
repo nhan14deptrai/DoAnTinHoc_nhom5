@@ -30,3 +30,4 @@ D:\DoAn\DoAn\DoAn\obj\Debug\DoAn.csproj.GenerateResource.cache
 D:\DoAn\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
 D:\DoAn\DoAn\DoAn\obj\Debug\DoAn.exe
 D:\DoAn\DoAn\DoAn\obj\Debug\DoAn.pdb
+D:\DoAnTinHoc_nhom5\DoAn\DoAn\obj\Debug\DoAn.exe.config

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Security.Cryptography.X509Certificates;
@@ -37,6 +38,7 @@ namespace DoAn
         private void Form1_Load(object sender, EventArgs e)
         {
             dsDB = new List<CDanhBa>();
+            LoadDanhBa();
             hienDSDanhBa();
         }
 
@@ -82,6 +84,40 @@ namespace DoAn
                     "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
             }
+        }
+       
+    
+       
+
+        private void btnLuuFile_Click(object sender, EventArgs e)
+        {
+           using (StreamWriter sw = new StreamWriter("DanhBa.txt"))
+            {
+                foreach (CDanhBa db in dsDB)
+                {
+                    sw.WriteLine("{0},{1},{2},{3}", db.SDT, db.HoTen, db.Email, db.Diachi);
+                    MessageBox.Show("Lưu danh bạ thành công!");
+                }
+                
+            }
+        }
+        public void LoadDanhBa()
+        {
+            dsDB.Clear();
+            using (StreamReader sr = new StreamReader("DanhBa.txt"))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length == 4)
+                    {
+                        CDanhBa db = new CDanhBa(parts[0], parts[1], parts[2], parts[3]);
+                        dsDB.Add(db);
+                    }
+                }
+            }
+            hienDSDanhBa();
         }
     }
 }
