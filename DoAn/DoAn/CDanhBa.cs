@@ -16,7 +16,7 @@ namespace DoAn
         {
             get { return m_sdt; }
             set { m_sdt = value; }
-        }public string Hoten
+        }public string HoTen
         {
             get { return m_hoten; }
             set { m_hoten = value; }

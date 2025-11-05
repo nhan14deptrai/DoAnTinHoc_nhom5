@@ -37,9 +37,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
-            this.txtDiaChi = new System.Windows.Forms.TextBox();
+            this.txtDiachi = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtTen = new System.Windows.Forms.TextBox();
+            this.txtHoten = new System.Windows.Forms.TextBox();
             this.dgvDanhBa = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -50,16 +50,19 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(597, 25);
+            this.btnThem.Location = new System.Drawing.Point(662, 47);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(75, 23);
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(597, 70);
+            this.btnSua.Location = new System.Drawing.Point(662, 91);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(75, 23);
             this.btnSua.TabIndex = 1;
@@ -68,16 +71,19 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(597, 108);
+            this.btnXoa.Location = new System.Drawing.Point(662, 130);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(75, 23);
             this.btnXoa.TabIndex = 2;
             this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnLuuFile
             // 
-            this.btnLuuFile.Location = new System.Drawing.Point(597, 150);
+            this.btnLuuFile.Location = new System.Drawing.Point(662, 172);
+            this.btnLuuFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLuuFile.Name = "btnLuuFile";
             this.btnLuuFile.Size = new System.Drawing.Size(75, 23);
             this.btnLuuFile.TabIndex = 3;
@@ -87,7 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(99, 38);
+            this.label1.Location = new System.Drawing.Point(32, 117);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(85, 16);
             this.label1.TabIndex = 4;
@@ -96,7 +102,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(99, 77);
+            this.label2.Location = new System.Drawing.Point(32, 157);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 16);
             this.label2.TabIndex = 5;
@@ -105,7 +111,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(99, 105);
+            this.label3.Location = new System.Drawing.Point(32, 184);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 6;
@@ -114,7 +120,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(99, 147);
+            this.label4.Location = new System.Drawing.Point(32, 225);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 16);
             this.label4.TabIndex = 7;
@@ -122,31 +128,35 @@
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(240, 32);
+            this.txtSDT.Location = new System.Drawing.Point(173, 111);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSDT.Name = "txtSDT";
-            this.txtSDT.Size = new System.Drawing.Size(100, 22);
+            this.txtSDT.Size = new System.Drawing.Size(301, 22);
             this.txtSDT.TabIndex = 8;
             // 
-            // txtDiaChi
+            // txtDiachi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(240, 147);
-            this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(100, 22);
-            this.txtDiaChi.TabIndex = 9;
+            this.txtDiachi.Location = new System.Drawing.Point(173, 222);
+            this.txtDiachi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDiachi.Name = "txtDiachi";
+            this.txtDiachi.Size = new System.Drawing.Size(301, 22);
+            this.txtDiachi.TabIndex = 9;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(240, 105);
+            this.txtEmail.Location = new System.Drawing.Point(173, 184);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.Size = new System.Drawing.Size(301, 22);
             this.txtEmail.TabIndex = 10;
             // 
-            // txtTen
+            // txtHoten
             // 
-            this.txtTen.Location = new System.Drawing.Point(240, 71);
-            this.txtTen.Name = "txtTen";
-            this.txtTen.Size = new System.Drawing.Size(100, 22);
-            this.txtTen.TabIndex = 11;
+            this.txtHoten.Location = new System.Drawing.Point(173, 149);
+            this.txtHoten.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtHoten.Name = "txtHoten";
+            this.txtHoten.Size = new System.Drawing.Size(301, 22);
+            this.txtHoten.TabIndex = 11;
             // 
             // dgvDanhBa
             // 
@@ -157,10 +167,11 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dgvDanhBa.Location = new System.Drawing.Point(32, 266);
+            this.dgvDanhBa.Location = new System.Drawing.Point(33, 267);
+            this.dgvDanhBa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDanhBa.Name = "dgvDanhBa";
             this.dgvDanhBa.RowHeadersWidth = 51;
-            this.dgvDanhBa.Size = new System.Drawing.Size(673, 172);
+            this.dgvDanhBa.Size = new System.Drawing.Size(737, 172);
             this.dgvDanhBa.TabIndex = 12;
             // 
             // Column1
@@ -173,11 +184,11 @@
             // 
             // Column2
             // 
-            this.Column2.DataPropertyName = "Hoten";
+            this.Column2.DataPropertyName = "HoTen";
             this.Column2.HeaderText = "Họ và tên";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
+            this.Column2.Width = 180;
             // 
             // Column3
             // 
@@ -185,7 +196,7 @@
             this.Column3.HeaderText = "Email";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
+            this.Column3.Width = 200;
             // 
             // Column4
             // 
@@ -193,7 +204,7 @@
             this.Column4.HeaderText = "Địa chỉ";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
+            this.Column4.Width = 180;
             // 
             // Form1
             // 
@@ -202,9 +213,9 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgvDanhBa);
-            this.Controls.Add(this.txtTen);
+            this.Controls.Add(this.txtHoten);
             this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.txtDiaChi);
+            this.Controls.Add(this.txtDiachi);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -215,6 +226,7 @@
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Danh Bạ Điện Thoại";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -235,9 +247,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSDT;
-        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.TextBox txtDiachi;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtTen;
+        private System.Windows.Forms.TextBox txtHoten;
         private System.Windows.Forms.DataGridView dgvDanhBa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
