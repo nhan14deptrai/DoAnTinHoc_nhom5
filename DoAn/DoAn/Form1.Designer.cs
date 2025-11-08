@@ -170,7 +170,7 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dgvDanhBa.Location = new System.Drawing.Point(33, 267);
+            this.dgvDanhBa.Location = new System.Drawing.Point(12, 267);
             this.dgvDanhBa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgvDanhBa.Name = "dgvDanhBa";
             this.dgvDanhBa.RowHeadersWidth = 51;
@@ -224,7 +224,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(778, 450);
+            this.ClientSize = new System.Drawing.Size(835, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvDanhBa);
             this.Controls.Add(this.txtHoten);

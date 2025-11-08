@@ -128,9 +128,10 @@ namespace DoAn
                 foreach (CDanhBa db in dsDB)
                 {
                     sw.WriteLine("{0},{1},{2},{3}", db.SDT, db.HoTen, db.Email, db.Diachi);
-                    MessageBox.Show("Lưu danh bạ thành công!");
+
                 }
-                
+                MessageBox.Show("Lưu danh bạ thành công!");
+
             }
         }
         public void LoadDanhBa()
