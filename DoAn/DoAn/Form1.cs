@@ -85,9 +85,41 @@ namespace DoAn
 
             }
         }
-       
-    
-       
+
+        private void btnSua_Click(object sender, EventArgs e)
+        {
+            string sdtCanTim = txtSDT.Text;
+
+            if (string.IsNullOrWhiteSpace(sdtCanTim))
+            {
+                MessageBox.Show("Vui lòng nhập Số điện thoại của liên hệ cần sửa vào ô 'Số điện thoại'.",
+                                "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 1. Tìm đối tượng Danh Bạ (CDanhBa) cần sửa trong List
+            CDanhBa dbCanSua = timDanhBa(sdtCanTim);
+
+            if (dbCanSua != null)
+            {
+                // 2. Cập nhật các thông tin khác từ TextBox (SDT vẫn giữ nguyên)
+                dbCanSua.HoTen = txtHoten.Text;
+                dbCanSua.Email = txtEmail.Text;
+                dbCanSua.Diachi = txtDiachi.Text;
+
+                // 3. Hiển thị lại danh sách để DataGridView được cập nhật
+                hienDSDanhBa();
+
+                MessageBox.Show($"Đã cập nhật thông tin thành công cho số điện thoại: {sdtCanTim}!",
+                                "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Số điện thoại " + sdtCanTim + " không tồn tại.\nKhông thể sửa!",
+                                "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
 
         private void btnLuuFile_Click(object sender, EventArgs e)
         {
@@ -119,5 +151,7 @@ namespace DoAn
             }
             hienDSDanhBa();
         }
+
+       
     }
 }
